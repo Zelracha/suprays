@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>To my baby</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+        <div class="music-card">
+            <div class="album-art">
+                <img src="us.jpg" alt="Album cover for my baby">
+            </div>
+            <div class="song-info">
+                <h2 class="song-title">Ikaw</h2>
+                <p class="artist">jm n zelbot</p>
+            </div>
+            <div class="player-controls">
+                <audio id="audio-player" src="ikaw.mp3"></audio> <!-- Ensure this path is correct -->
+                <div class="buttons">
+                    <button class="shuffle"><i class="material-icons">shuffle</i></button>
+                    <button class="previous"><i class="material-icons">skip_previous</i></button>
+                    <button class="play" id="play-pause"><i class="material-icons">play_circle_filled</i></button>
+                    <button class="next"><i class="material-icons">skip_next</i></button>
+                    <button class="repeat"><i class="material-icons">repeat</i></button>
+                </div>
+                <div class="progress-container">
+                    <span id="current-time">4:16</span>
+                    <input type="range" id="progress-bar" value="0" min="0" max="100">
+                    <span id="duration">8:01</span>
+                </div>
+            </div>
+        </div>
+        <div class="poem-card">
+            <h2>Ikaw</h2>
+            <p>
+                "kung di pa ikaw, eh sino pa ba"<br>
+                linya sa kanta na tuwing kinakanta ko<br>
+                ikaw palagi nasa isip ko.<br><br>
+                Matik, pag nag-play ang intro,<br>
+                lagi ka nalang sumasagi sa isip ko,<br>
+                at bigla-bigla akong ngumingiti,<br>
+                parang baliw kahit na nasa trabaho pa.<br><br>
+                Ewan ko ba, you just make my life complete.<br>
+                I don't know what the future holds,<br>
+                but hearing this song with you on my mind,<br>
+                I just want to keep going as long as it's you I'm with.<br><br>
+                Wala lang, feeling ko ang cringe pero sige.<br>
+                Di ako sanay sumulat pero you make me<br>
+                want to just express my feelings,<br>
+                just because saying I love you is not enough para ipakita ko ang pagmamahal ko sayo.<br><br>
+                I love you. Baby ko, mwaa.
+            </p>
+        </div>
+    </div>
+    <script src="scripts.js"></script>
+</body>
+</html>

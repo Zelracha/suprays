@@ -1,0 +1,89 @@
+body {
+    font-family: 'Helvetica Neue', Arial, sans-serif;
+    background-color: #121212;
+    color: #ffffff;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    width: 90%;
+    max-width: 900px;
+    margin: auto;
+}
+
+.music-card, .poem-card {
+    background-color: #181818;
+    border-radius: 12px;
+    box-shadow: 0 4px 60px rgba(0, 0, 0, 0.5);
+    padding: 20px;
+    box-sizing: border-box;
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.album-art img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+    margin-bottom: 12px;
+}
+
+.song-info {
+    text-align: center;
+    margin-bottom: 12px;
+}
+
+.song-title {
+    font-size: 20px;
+    margin: 0;
+    font-weight: 700;
+}
+
+.artist {
+    color: #b3b3b3;
+    font-size: 16px;
+    margin-top: 4px;
+}
+
+.player-controls {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+}
+
+audio {
+    display: none; /* Hide the audio element */
+}
+
+.buttons {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 10px;
+}
+
+.buttons button {
+    background-color: transparent;
+    border: none;
+    color: #b3b3b3;
+    cursor: pointer;
+    transition: color 0.2s;
+}
+
+.buttons button:hover {
+    color: #ffffff;
+}
+
+.buttons .material-icons {
+    font-size: 24px
